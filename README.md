@@ -10,15 +10,17 @@ Un programme en **C** permettant de résoudre automatiquement des grilles de Sud
 *(image illustrative, pas une capture d’écran réelle)*
 
 ## 📌 Fonctionnalités
-- 📝 Résolution automatique de grilles de Sudoku
+- 📝 Résolution automatique de **toutes** les solutions possibles d’une grille
+- 🔢 Comptage et affichage du **nombre total de solutions**
 - 🔎 Vérification de la validité d’une grille
 - ⚡ Algorithme de **backtracking** optimisé
 - 📂 Chargement de grilles depuis un fichier texte
 - 🖥️ Affichage clair et formaté en console
+- 🧪 Génération de grilles aléatoires avec un script Perl fourni
 
 ## 🛠 Technologies utilisées
 - **Langage** : C (ANSI C)
-- **Outils** : `gcc`, `make`
+- **Outils** : `gcc`, `make`, `perl`
 - **Algorithmie** : Backtracking / recherche exhaustive
 
 ## 🚀 Installation et Exécution
