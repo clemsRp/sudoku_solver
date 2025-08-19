@@ -27,7 +27,7 @@ Un programme en **C** permettant de résoudre automatiquement des grilles de Sud
 
 ```sh
 # Cloner le projet
-git clone https://github.com/TON-USER/sudoku_solver.git
+git clone https://github.com/clemsRp/sudoku_solver.git
 cd sudoku_solver
 
 # Compiler le programme
