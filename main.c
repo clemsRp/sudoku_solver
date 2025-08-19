@@ -15,8 +15,10 @@ void    algo(char *filename)
 {
     char    *res;
     char    **grid;
+    int         i;
     int         nb_solutions;
 
+    i = 0;
     nb_solutions = 0;
     res = parser(filename);
     if (res == NULL)
@@ -37,6 +39,12 @@ void    algo(char *filename)
     write(1, ": Il y a ", 9);
     ft_putnbr(nb_solutions);
     write(1, " solutions possibles.\n", 22);
+    while (i < 10)
+    {
+        free(grid[i]);
+        i++;
+    }
+    free(grid);
 }
 
 int     main(int argc, char *argv[])
